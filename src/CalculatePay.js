@@ -32,6 +32,13 @@ class CalculatePay extends User{
             180000,     // 180+
         ]
     }
+
+    runCalc() {
+            this.calcGrossMonthly()
+            this.calcNetAnunal()
+            this.calcNetMontly()
+            this.calcMonthlyTax()
+    }
     
     calcAnnualTax() {
         let salary = this.salary
