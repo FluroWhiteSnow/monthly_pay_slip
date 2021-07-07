@@ -92,7 +92,7 @@ As we only want to input a user's name and salary, then to read their monthly da
 
 ---
 
-![Screenshot from 2021-07-05 01-18-13.png](:/15240b2c5e5f48c28676b5349cebeba8)
+![Screenshot from 2021-07-05 01-18-13.png](src/imgs/screenshot2.png)
 
 <br>
 
@@ -102,7 +102,7 @@ As we only want to input a user's name and salary, then to read their monthly da
 
 <br>
 
-![Screenshot from 2021-07-05 00-56-45.png](:/9fdb39bc72654b8098ce778d36f74825)
+![Screenshot from 2021-07-05 00-56-45.png](src/imgs/screenshot1.png)
 
 ### User
 
@@ -119,7 +119,7 @@ Calculate pay contains all the calculations that is needed to return our desired
 FormatPayslip extends the CaculatePay class
 FormatPayslip returns our desired output in a cleanly formatted response
 
-![Screenshot from 2021-07-05 01-29-20.png](:/5018075a944d4b53ae60f72e5976731d)
+![Screenshot from 2021-07-05 01-29-20.png](/src/imgs/screen3.png)
 
 <br>
 
