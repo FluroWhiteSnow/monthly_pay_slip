@@ -31,9 +31,12 @@ Open the root folder in terminal and run `node app.js`
 Open the test folder in terminal
 Run `yarn test <filename>.test.js`
 
+After running `User.test.js` you need to type `Test User` in console.
+The application is prompting you for a name. However, Jest does not show the prompt.
+
 <br>
 
-(Only `CaculatePay.test.js` is working at the moment. Please contact Ananda for information)
+(Note: `FormatPayslip.test.js` is not working at the moment. Please contact Ananda for information)
 
 ## Software Development Plan
 

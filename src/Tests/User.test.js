@@ -1,14 +1,14 @@
 const User = require("../User").User;
 
-const user = new User("Ananda Rodziewicz", 60000);
-// const user2 = new User("Ananda ", 0);
+const user = new User("Test User", 60000);
+const user2 = new User("Ananda ", 0);
 
-describe("Testing for valid names", () => {
-  expect(user.name).toBe("Ananda Rodziewicz");
-  expect(user.getName()).toEqual("Ananda Rodziewicz");
+test("Testing for valid names", () => {
+  expect(user.name).toBe("Test User");
+  expect(user.getName()).toEqual("Test User");
 });
 
-// describe("Testing for empty names", () => {
-//   expect(user.name).not.toBe(" ");
-//   expect(user.getName()).not.toBe(false);
-// });
+test("Testing for user 2", () => {
+  expect(user2.name).toBe("Ananda");
+  expect(user.getName()).toEqual("Ananda");
+});
